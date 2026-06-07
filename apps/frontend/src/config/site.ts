@@ -5,7 +5,7 @@ export const siteConfig = {
   whatsappDisplay: "+86 153 2345 3113",
   whatsappNumber: "8615323453113",
   location: "Shenzhen, China",
-  logo: "/logo/haswell-logo.jpg",
+  logo: "/logo/haswell-logo.png",
   whatsappMessage:
     "Hello Haswell Security, I am interested in your security products. Please send me your latest catalog and quotation.",
 };

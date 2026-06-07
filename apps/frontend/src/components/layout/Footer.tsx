@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className="bg-dark py-16 text-white">
       <div className="container grid gap-10 lg:grid-cols-[1.2fr_.8fr_.8fr]">
         <div>
-          <Image src={siteConfig.logo} alt="Haswell Security" width={220} height={64} className="h-14 w-auto rounded bg-white object-contain p-2" />
+          <Image src={siteConfig.logo} alt="Haswell Security" width={220} height={64} className="h-14 w-auto object-contain" />
           <p className="mt-5 max-w-md text-sm leading-7 text-slate-300">
             Haswell Security provides integrated security, smart home, parking, inspection, body worn and solar energy solutions for global B2B partners.
           </p>
