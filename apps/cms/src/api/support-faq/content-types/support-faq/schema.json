@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "support_faqs",
+  "info": {
+    "singularName": "support-faq",
+    "pluralName": "support-faqs",
+    "displayName": "Support FAQ"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
