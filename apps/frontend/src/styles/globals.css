@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2340E8;
+  --color-secondary: #59C6F2;
+  --color-dark: #0B1530;
+  --color-success: #00C896;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--color-dark);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+a { color: inherit; text-decoration: none; }
+* { box-sizing: border-box; }

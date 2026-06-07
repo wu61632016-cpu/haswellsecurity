@@ -1,0 +1,19 @@
+{
+  "name": "haswell-security-v6-final-release",
+  "version": "6.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace apps/frontend run dev",
+    "build:frontend": "npm --workspace apps/frontend run build",
+    "type-check": "npm --workspace apps/frontend run type-check",
+    "dev:cms": "npm --workspace apps/cms run develop",
+    "build:cms": "npm --workspace apps/cms run build"
+  },
+  "devDependencies": {
+    "fraction.js": "^5.3.4"
+  }
+}

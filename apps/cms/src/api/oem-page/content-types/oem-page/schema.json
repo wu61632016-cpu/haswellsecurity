@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oem_pages",
+  "info": {
+    "singularName": "oem-page",
+    "pluralName": "oem-pages",
+    "displayName": "OEM Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
