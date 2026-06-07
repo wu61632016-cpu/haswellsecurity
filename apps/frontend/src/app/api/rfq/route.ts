@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     const smtpHost = process.env.SMTP_HOST || "smtp.mxhichina.com"; // 默认为阿里云企业邮箱主机
     const smtpPort = parseInt(process.env.SMTP_PORT || "465");
     const smtpUser = process.env.SMTP_USER;
-    const smtpPass = process.env.SMTP_PASS;
+    const smtpPass = process.env.SMTP_PASSWORD || process.env.SMTP_PASS;
     const notificationEmail = process.env.NOTIFICATION_EMAIL || smtpUser;
 
     // 只有在配置了邮箱和密码时才触发发送
